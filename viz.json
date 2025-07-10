@@ -1,47 +1,59 @@
 {
   "data": [
     {
-      "id": "default",
-      "label": "Data",
-      "type": "TABLE",
-      "dimensions": [
+      "id": "raceHeatData",
+      "label": "Race Heat Data",
+      "elements": [
         {
           "id": "race",
-          "name": "Race",
-          "type": "TEXT"
+          "label": "Race",
+          "type": "DIMENSION",
+          "options": { "min": 1, "max": 1 }
         },
         {
           "id": "heat",
-          "name": "Heat",
-          "type": "TEXT"
+          "label": "Heat",
+          "type": "DIMENSION",
+          "options": { "min": 1, "max": 1 }
         },
         {
           "id": "lane",
-          "name": "Lane",
-          "type": "NUMBER"
+          "label": "Lane",
+          "type": "DIMENSION",
+          "options": { "min": 1, "max": 1 }
         },
         {
           "id": "name",
-          "name": "Swimmer Name",
-          "type": "TEXT"
+          "label": "Name",
+          "type": "DIMENSION",
+          "options": { "min": 1, "max": 1 }
         },
         {
-          "id": "age",
-          "name": "Age",
-          "type": "NUMBER"
+          "id": "agegroup",
+          "label": "Age Group",
+          "type": "DIMENSION",
+          "options": { "min": 1, "max": 1 }
         },
         {
           "id": "academy",
-          "name": "Academy",
-          "type": "TEXT"
+          "label": "Academy",
+          "type": "DIMENSION",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "side",
+          "label": "Side",
+          "type": "DIMENSION",
+          "options": { "min": 0, "max": 1 }
         }
-      ],
-      "metrics": []
+      ]
     }
   ],
-  "style": [],
-  "interactions": {},
-  "features": {
-    "dataRefresh": true
-  }
+  "style": [
+    {
+      "id": "raceHeatStyle",
+      "label": "Race Heat Style",
+      "elements": []
+    }
+  ]
 }

@@ -1,15 +1,22 @@
 {
-  "name": "Races Heats Table",
-  "id": "oadl_races_table",
-  "description": "Custom table with Heat grouping for swimmers.",
-  "developer": {
-    "name": "Omar Adel",
-    "email": "omar@email.com"
-  },
-  "visualization": {
-    "url": "https://oadl.github.io/races-heats-lookerstudio-community-visualization/index.html"
-  },
-  "config": {
-    "url": "https://oadl.github.io/races-heats-lookerstudio-community-visualization/viz.json"
-  }
+  "name": "Race Heat Layout",
+  "organization": "Omar Adel",
+  "description": "Displays races and their heats with swimmer details in a grouped layout.",
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_2013_Google.png",
+  "packageUrl": "https://github.com/OADL/races-heats-lookerstudio-community-visualization",
+  "supportUrl": "https://github.com/OADL/races-heats-lookerstudio-community-visualization",
+  "devMode": true,
+  "components": [
+    {
+      "id": "raceHeatLayout",
+      "name": "Race Heat Layout",
+      "description": "Displays all heats and swimmers for a selected race in a grouped layout.",
+      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Logo_2013_Google.png/48px-Logo_2013_Google.png",
+      "resource": {
+        "js": "gs://races-heat-viz/viz.js",
+        "config": "gs://races-heat-viz/viz.json",
+        "css": "gs://races-heat-viz/viz.css"
+      }
+    }
+  ]
 }
