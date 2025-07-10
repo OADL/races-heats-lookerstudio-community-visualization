@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "id": "default",
+      "label": "Data",
+      "type": "TABLE",
+      "dimensions": [
+        {
+          "id": "race",
+          "name": "Race",
+          "type": "TEXT"
+        },
+        {
+          "id": "heat",
+          "name": "Heat",
+          "type": "TEXT"
+        },
+        {
+          "id": "lane",
+          "name": "Lane",
+          "type": "NUMBER"
+        },
+        {
+          "id": "name",
+          "name": "Swimmer Name",
+          "type": "TEXT"
+        },
+        {
+          "id": "age",
+          "name": "Age",
+          "type": "NUMBER"
+        },
+        {
+          "id": "academy",
+          "name": "Academy",
+          "type": "TEXT"
+        }
+      ],
+      "metrics": []
+    }
+  ],
+  "style": [],
+  "interactions": {},
+  "features": {
+    "dataRefresh": true
+  }
+}
