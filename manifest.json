@@ -10,8 +10,6 @@
     "url": "https://oadl.github.io/races-heats-lookerstudio-community-visualization/index.html"
   },
   "components": ["gvis"],
-  "style": {
-  },
   "config": {
     "url": "https://oadl.github.io/races-heats-lookerstudio-community-visualization/viz.json"
   }
