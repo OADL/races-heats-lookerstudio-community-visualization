@@ -1,0 +1,18 @@
+{
+  "name": "Races Heats Table",
+  "id": "oadl_races_table",
+  "description": "Custom table with Heat grouping for swimmers.",
+  "developer": {
+    "name": "Omar Adel",
+    "email": "omar@email.com"
+  },
+  "visualization": {
+    "url": "https://oadl.github.io/races-heats-lookerstudio-community-visualization/index.html"
+  },
+  "components": ["gvis"],
+  "style": {
+  },
+  "config": {
+    "url": "https://oadl.github.io/races-heats-lookerstudio-community-visualization/viz.json"
+  }
+}
